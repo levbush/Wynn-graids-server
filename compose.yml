@@ -1,0 +1,8 @@
+services:
+  ktor-app:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      - DISCORD_WEBHOOK_URL=https://discord.com/api/webhooks/1344727539427311728/q7cWAuoNt3D1JrBs1X60XU-AIrXEwx-2VIv0Ep7Dwdt6cTQWgrNjYQjOfEGPz5uwLrfQ
+      - GUILD=WynncraftRU
