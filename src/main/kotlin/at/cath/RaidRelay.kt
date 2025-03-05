@@ -198,7 +198,7 @@ private fun raidMsg(raidName: String, players: List<String>, raidImgUrl: String)
                         }
                     ],
                     "author": {
-                        "name": "Guild Raid Notification",
+                        "name": "Уведомление о Гилд Рейде",
                         "icon_url": "https://i.imgur.com/PTI0zxK.png"
                     },
                     "thumbnail": {
