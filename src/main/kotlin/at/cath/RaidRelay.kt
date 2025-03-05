@@ -169,16 +169,16 @@ private fun raidMsg(raidName: String, players: List<String>, raidImgUrl: String)
             "content": null,
             "embeds": [
                 {
-                    "title": "Completion: $raidName",
+                    "title": "Завершение: $raidName",
                     "color": null,
                     "fields": [
                         {
-                            "name": "Player 1",
+                            "name": "Игрок 1",
                             "value": "${players.getOrElse(0) { "N/A" }}",
                             "inline": true
                         },
                         {
-                            "name": "Player 2",
+                            "name": "Игрок 2",
                             "value": "${players.getOrElse(1) { "N/A" }}",
                             "inline": true
                         },
@@ -187,12 +187,12 @@ private fun raidMsg(raidName: String, players: List<String>, raidImgUrl: String)
                             "value": "\t"
                         },
                         {
-                            "name": "Player 3",
+                            "name": "Игрок 3",
                             "value": "${players.getOrElse(2) { "N/A" }}",
                             "inline": true
                         },
                         {
-                            "name": "Player 4",
+                            "name": "Игрок 4",
                             "value": "${players.getOrElse(3) { "N/A" }}",
                             "inline": true
                         }
